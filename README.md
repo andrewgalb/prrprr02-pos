@@ -3,27 +3,29 @@
 
 ED planerar att göra om skolkafeterian. I och med detta kommer deras POS (point-of-sale) system bytas ut. Ditt företag har fått kontraktet att designa och implementera detta. 
 
-## Uppgiftsbeskrivning och arbetsgån
+## Uppgiftsbeskrivning och arbetsgång
 
 Projektet handlar om att designa och koda det nya systemet, som heter EDPOS. Detta ska göras i ett antal steg:
 
 1. Forka denna repo:n.
-2. Vi tar fram gemensamt vilka krav som gäller för systemet (s.k requirements). Vad måste det kunna göra? Vilka funktioner ska finnas med? För att ta reda på det har ett antal olika stakeholders intervjuats. Du hittar deras uttalanden i filen UserStories. Utifrån detta ska du skapa en kravlista som gäller för EDPOS som las in i din wiki.
-3. Nu är det dags att funderar på vilka klasser som skulle kunna gälla när du kör igång och börja programmera. Skapa en klassdiagram med hjälp av UML som visar tydligt hur du tänker implementera systemet. Nu ska du ha med de metoder du anser vara mest viktigt. Observera att din implementering kommer förmodligen skilja sig från denna design. Denna model läggs in i din wiki.
+2. Vi tar fram gemensamt vilka krav som gäller för systemet (s.k. requirements). Vad måste det kunna göra? Vilka funktioner ska finnas med? För att ta reda på det har ett antal olika stakeholders intervjuats. Du hittar deras uttalanden i filen UserStories. Utifrån detta ska du skapa en kravlista som gäller för EDPOS som las in i din wiki.
+3. Nu är det dags att funderar på vilka klasser som skulle kunna gälla när du kör igång och börja programmera. Ett sätt att börja processen är att granska de substantiv som finns med i user stories eller i kraven. Skapa en klassdiagram med hjälp av UML som visar tydligt hur du tänker implementera systemet. Nu ska du ha med de metoder du anser vara mest viktigt. Observera att din implementering kommer förmodligen skilja sig från denna design. Denna model läggs in i din wiki.
 5. Börja programmera utifrån din klassdiagram. 
 
 ## Dokumentationskrav
 
 Allt dokumentation sker i wiki:n på din forkade repo:n. Bland dokumentationen ska finnas:
-+ De krav som tagit fram    
-+ En klassdiagram över hur du planerade utföra uppgiften, samt en till klassdiagram som beskriver hur produkten blev.
++ De krav som tagits fram    
++ En klassdiagram över hur du planerade att utföra uppgiften, samt en till klassdiagram som beskriver hur produkten blev.
 + Kommenterat kod  
-+ En reflektion kring ditt slutprodukt. Hur skulle du utvärdera programmets prestanda och ändamåsenslighet? Skulle det kunna förbättras på något sätt?
++ En reflektion kring ditt slutprodukt. Hur skulle du utvärdera programmets prestanda och ändamålsenslighet? Skulle det kunna förbättras på något sätt?
 
 ## Tips
 + Regelbunda commits och pushes förväntas.
 + Givetvis får ni leta efter hjälp på nätet - till viss mån.
 + Likadant får man ställa (väldigt) allmänna frågor till sina kamrater, men det ska betonas att detta är en enskild uppgift.
++ Försök att maximera s.k. cohesion. Välj klasser så att de grupperade metoder har ett gemensamt syfte.
++ Försök att minimera s.k. coupling. Ju mindre en klass beror på implementationen av en annan klass, desto bättre. 
 + Gör vad du kan och ge inte upp. Detta är ett större projekt och ni får mycket frihet, men suddiga ramar kan även orsaka problem. 
 
 ## Tidsramar och inlämning
