@@ -9,8 +9,8 @@ Projektet handlar om att designa och koda det nya systemet, som heter EDPOS. Det
 
 1. Forka denna repo:n.
 2. Vi tar fram gemensamt vilka krav som gäller för systemet (s.k. requirements). Vad måste det kunna göra? Vilka funktioner ska finnas med? För att ta reda på det har ett antal olika stakeholders intervjuats. Du hittar deras uttalanden i filen UserStories. Utifrån detta ska du skapa en kravlista som gäller för EDPOS som las in i din wiki.
-3. Nu är det dags att funderar på vilka klasser som skulle kunna gälla när du kör igång och börja programmera. Ett sätt att börja processen är att granska de substantiv som finns med i user stories eller i kraven. Skapa en klassdiagram med hjälp av UML som visar tydligt hur du tänker implementera systemet. Nu ska du ha med de metoder du anser vara mest viktigt. Observera att din implementering kommer förmodligen skilja sig från denna design. Denna model läggs in i din wiki.
-5. Börja programmera utifrån din klassdiagram. 
+3. Nu är det dags att funderar på vilka klasser som skulle kunna gälla när du kör igång och börja programmera. Ett sätt att börja processen är att granska de substantiv som finns med i user stories eller i kraven. Skapa en klassdiagram med hjälp av UML som visar tydligt hur du tänker implementera systemet. Du ska ha med de metoder du anser vara mest viktigt. Observera att din implementering kommer förmodligen skilja sig från denna design. Denna model läggs in i din wiki.
+4. Börja programmera utifrån din klassdiagram. 
 
 ## Dokumentationskrav
 
